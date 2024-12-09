@@ -1,3 +1,5 @@
+package generics;
+
 /**
  * A Generic Method allows you to define a method with a type parameter,
  * making the method flexible for different

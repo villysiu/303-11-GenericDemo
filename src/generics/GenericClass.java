@@ -1,3 +1,5 @@
+package generics;
+
 public class GenericClass <T>{
 
     private T value;
@@ -14,13 +16,10 @@ public class GenericClass <T>{
         this.value = value;
     }
 
-    public void displayInfo(){
-
-    }
 
     @Override
     public String toString() {
-        return "GenericClass{" +
+        return "generics.GenericClass{" +
                 "value=" + value +
                 '}';
     }
